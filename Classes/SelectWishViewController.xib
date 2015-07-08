@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectWishViewController">
+            <connections>
+                <outlet property="bg" destination="c8X-vH-Wjb" id="git-ln-ia1"/>
+                <outlet property="createCampaignButton" destination="Z7B-h6-451" id="RHU-VM-uES"/>
+                <outlet property="label1" destination="dBw-3v-1Kn" id="0af-nc-PMe"/>
+                <outlet property="label2" destination="xVS-Xz-qNr" id="S8e-VR-fqc"/>
+                <outlet property="label3" destination="h0e-Sh-6Sg" id="vQn-tq-FdV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wishizlogo" destination="ynz-i9-UTJ" id="ujk-12-Rp4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_wishiz_logo" id="ynz-i9-UTJ">
+                    <rect key="frame" x="41" y="27" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="1" maxY="1"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Z7B-h6-451">
+                    <rect key="frame" x="31" y="362" width="260" height="63"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="1" maxY="1"/>
+                    <state key="normal" backgroundImage="select_wishiz_now_button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you ready to select " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dBw-3v-1Kn">
+                    <rect key="frame" x="8" y="201" width="304" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="1" maxY="1"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a wish to show the world?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xVS-Xz-qNr">
+                    <rect key="frame" x="8" y="231" width="304" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="1" maxY="1"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click below to begin." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h0e-Sh-6Sg">
+                    <rect key="frame" x="9" y="339" width="304" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="1" maxY="1"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_wishiz_bg" id="c8X-vH-Wjb">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="1" maxY="1"/>
+                </imageView>
+            </subviews>
+            <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="357" y="297"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="select_wishiz_bg" width="1242" height="2208"/>
+        <image name="select_wishiz_logo" width="603" height="224"/>
+        <image name="select_wishiz_now_button" width="574" height="137"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
